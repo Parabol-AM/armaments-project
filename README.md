@@ -4,7 +4,7 @@
 
 **armaments-project** se positionne comme une plateforme de **commerce international d’armement de pointe**, rassemblant les technologies militaires les plus avancées de chaque pays.  
 
-Notre mission : **fournir une vitrine numérique complète et sécurisée pour la sélection stratégique de systèmes d’armement**, à usage pédagogique et démonstratif.
+Notre mission : **fournir une vitrine numérique complète et sécurisée pour la sélection stratégique de systèmes d’armement**.
 
 > *“Connecting the world’s defense technology in a single platform.”*
 
