@@ -28,6 +28,5 @@ Le site présente des catégories d’armement structurées et détaillées :
 - **Backend** : PHP (gestion des requêtes, sessions, API interne)  
 - **Base de données** : MySQL (structuration des utilisateurs, produits, commandes simulées)  
 - **Outils** : Git/GitHub, navigateur moderne pour tests
-
+- **Hébérgement** : Sur serveur personnel si possible, always data possible
 ---
-
