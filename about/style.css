@@ -1,0 +1,121 @@
+body {
+  margin: 0%;
+  background-color: #242424;
+  color: antiquewhite;
+  font-family: "DIN";
+}
+
+/* ── HEADER ── */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* ── NAV ── */
+nav {
+  width: 100%;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  margin: 0;
+  list-style-type: none;
+  background-color: transparent;
+}
+
+.nav-menu img {
+  width: 32px;
+  height: auto;
+  object-fit: contain;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: antiquewhite;
+  font-size: 0.95rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: color 0.2s;
+}
+
+.nav-menu li a:hover {
+  color: #e8c84a;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* ── MAIN CONTENT ── */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.about-section, .team-section, .values-section {
+  margin-bottom: 3rem;
+  padding: 1.5rem;
+  background-color: rgba(36, 36, 36, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.about-section h1, .team-section h2, .values-section h2 {
+  color: #e8c84a;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.about-section p, .team-section p {
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+}
+
+.values-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.values-section li {
+  margin-bottom: 0.75rem;
+  padding-left: 1.25rem;
+  position: relative;
+}
+
+.values-section li::before {
+  content: '•';
+  color: #e8c84a;
+  position: absolute;
+  left: 0;
+}
+
+.values-section strong {
+  color: #e8c84a;
+}
+
+/* ── FOOTER ── */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-top: 2rem;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #aaa;
+}
