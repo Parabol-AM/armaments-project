@@ -43,7 +43,7 @@
             </p>
             <form action="../client/add_to_cart.php" method="post">
                 <input type="hidden" name="product_id" value="1">
-                <input type="hidden" name="product_name" value="Titre du Produit">
+                <input type="hidden" name="product_name" value="M51">
                 <input type="hidden" name="product_price" value="999.99">
                 <button type="submit" class="add-to-cart-button">Ajouter au panier</button>
             </form>
