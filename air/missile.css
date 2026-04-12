@@ -1,64 +1,127 @@
-/* Reset et base */
+/* General Styles */
 body {
     margin: 0;
-    background-color: #1a1a1a;
-    color: antiquewhite;
+    padding: 0;
     font-family: "DIN", sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
     line-height: 1.6;
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
 }
-/* Titre principal */
-h1 {
-    font-size: 4rem;
-    margin-bottom: 1rem;
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('m51-1-2021.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    text-transform: uppercase;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.hero-title {
+    font-size: 4rem;
+    font-weight: 300;
+    margin: 0;
     letter-spacing: 2px;
 }
-/* Description du produit */
-p {
+
+.registered-symbol {
+    font-size: 2rem;
+    vertical-align: super;
+}
+
+.hero-subtitle {
     font-size: 1.2rem;
-    text-align: center;
-    margin-bottom: 3rem;
-    max-width: 600px;
+    margin-top: 20px;
+    opacity: 0.9;
 }
-/* Conteneur pour l'image et le formulaire */
-.product-container {
+
+/* Stats */
+.stats-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-    max-width: 800px;
-    width: 100%;
+    justify-content: space-around;
+    padding: 60px 20px;
+    background-color: #2a2a2a;
+    flex-wrap: wrap;
 }
-/* Style pour l'image du missile */
-.missile-image {
-    width: 100%;
-    max-width: 500px;
+
+.stat-item {
+    text-align: center;
+    margin: 20px;
+}
+
+.stat-number {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.stat-label {
+    font-size: 1rem;
+    color: #cccccc;
+    margin-top: 10px;
+}
+
+/* produit */
+.product-container {
+    padding: 80px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-content {
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.product-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.product-image {
+    max-width: 100%;
     height: auto;
-    object-fit: contain;
     border-radius: 8px;
-    box-shadow: 0 8px 16px rgba(255, 215, 0, 0.2);
+    margin-bottom: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
-/* Style pour le bouton "Add to Cart" */
-button[type="submit"] {
-    background-color: transparent;
-    color: antiquewhite;
-    border: 2px solid #e8c84a;
-    padding: 1rem 2rem;
+
+.product-description {
     font-size: 1.1rem;
-    font-family: "DIN", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    width: fit-content;
+    color: #cccccc;
+    margin-bottom: 30px;
+    line-height: 1.8;
 }
-button[type="submit"]:hover {
+
+.add-to-cart-button {
+    background-color: #444;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    font-family: "DIN", sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.add-to-cart-button:hover {
     background-color: #e8c84a;
-    color: #1a1a1a;
+    color: #333;
+    transform: translateY(-3px);
 }
