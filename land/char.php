@@ -56,13 +56,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://db.onlinewebfonts.com/c/43c793eb9fcfce5efd986389cceb93d0?family=DIN" rel="stylesheet">
     <link rel="stylesheet" href="missile.css">
-    <title>M 51</title>
+    <title>Leopard 2a7v</title>
 </head>
 <body>
     <div class="hero-section">
         <div class="hero-content">
-            <h1 class="hero-title">M 51<span class="registered-symbol">®</span></h1>
-            <p class="hero-subtitle">Country France</p>
+            <h1 class="hero-title">Leopard 2a7v<span class="registered-symbol">®</span></h1>
+            <p class="hero-subtitle">Country Germany</p>
         </div>
     </div>
 
@@ -87,10 +87,10 @@
 
     <div class="product-container">
         <div class="product-content">
-            <h2 class="product-title">missile M51 </h2>
+            <h2 class="product-title">MBT</h2>
             <img src="m51_scanline_01.jpg" alt="Description de l'image" class="product-image">
             <p class="product-description">
-                Le M51 est un missile à trois étages, d'une hauteur de 12 mètres, d'une masse totale supérieure à 50 tonnes (54 maximum, contre 36 tonnes pour le missile M45) qui a été conçu afin de pouvoir être lancé depuis un sous-marin en plongée. Éjecté par un système de chasse à poudre, le missile jaillit de l’eau puis allume son moteur à quelques dizaines de mètres de la surface
+               Le Leopard 2a7v version modernisé du Leopard 2 est un char de combat principal utilisé a travers le monde entier, doté d'un cannon a âme lisse de 120mm, le cannon peut tirer tout type d'obus
             </p>
             <form action="../client/add_to_cart.php" method="post">
                 <input type="hidden" name="product_id" value="1">
