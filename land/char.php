@@ -111,7 +111,7 @@
     }).addTo(map);
 
     L.marker([50.583225, 9.692516]).addTo(map)
-        .bindPopup("Déploiement en France")
+        .bindPopup("Déploiement en Allemagne")
         .openPopup();
 </script>
 </body>
