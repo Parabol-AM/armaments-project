@@ -30,7 +30,7 @@
         </div>
         <div class="stat-item">
             <div class="stat-number">5,000+</div>
-            <div class="stat-label">Interceptions</div>
+            <div class="stat-label">SLBM</div>
         </div>
     </div>
 
@@ -49,5 +49,20 @@
             </form>
         </div>
     </div>
+    <div id="map" style="height: 400px; margin: 20px 0;"></div>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script>
+    const map = L.map('map').setView([48.50747089610465, 2.346855612780373], 5);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png', {
+        attribution: '© OpenStreetMap'
+    }).addTo(map);
+
+    // cords
+    L.marker([48.50747089610465, 2.346855612780373]).addTo(map)
+        .bindPopup("Déploiement en France")
+        .openPopup();
+</script>
 </body>
 </html>
