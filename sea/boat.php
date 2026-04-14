@@ -17,20 +17,20 @@
 
     <div class="stats-container">
         <div class="stat-item">
-            <div class="stat-number">13</div>
+            <div class="stat-number">20</div>
             <div class="stat-label">Years Saving Lives</div>
         </div>
         <div class="stat-item">
-            <div class="stat-number">70 km/h</div>
+            <div class="stat-number">25kt</div>
             <div class="stat-label">speed</div>
         </div>
         <div class="stat-item">
-            <div class="stat-number">69t</div>
+            <div class="stat-number">2500t</div>
             <div class="stat-label">weight</div>
         </div>
         <div class="stat-item">
-            <div class="stat-number">5,000+</div>
-            <div class="stat-label">Interceptions</div>
+            <div class="stat-number">20</div>
+            <div class="stat-label">Frégate</div>
         </div>
     </div>
 
@@ -39,7 +39,7 @@
             <h2 class="product-title">Classe La Fayette </h2>
             <img src="images.jpeg" alt="Description de l'image" class="product-image">
             <p class="product-description">
-                La classe La Fayette (ou FLF pour Frégate Légère Furtive) est un type de frégates légères furtives construites en France et en service dans la Marine nationale française.
+                La classe La Fayette (ou FLF pour Frégate Légère Furtive) est un type de frégates légères furtives construites en France et en service dans la Marine nationale.
             </p>
             <form action="../client/add_to_cart.php" method="post">
                 <input type="hidden" name="product_id" value="3">
